@@ -1,4 +1,5 @@
 import './header.css'
+import HeaderImg from "../img/1713248.jpg"
 
 export default function Header() {
     return (
@@ -7,6 +8,7 @@ export default function Header() {
                 <span className="headerTitleSm">React & Node</span>
                 <span className="headerTitleLg">Blog</span>
             </div>
+            <img className="headerImg" src={HeaderImg} alt="" />
         </div>
     )
 }

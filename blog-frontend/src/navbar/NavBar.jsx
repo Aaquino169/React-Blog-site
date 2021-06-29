@@ -1,7 +1,6 @@
 import React from 'react'
 import "./navbar.css"
 
-import logo from "../img/20201216_170947.jpg"
 
 export default function NavBar() {
     
