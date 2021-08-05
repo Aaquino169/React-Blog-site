@@ -3,7 +3,7 @@ import "./navbar.css"
 
 
 export default function NavBar() {
-    
+    const user = true;
     
 
     return (
